@@ -1,0 +1,81 @@
+body {      
+  margin: 0;
+  padding: 0;
+}
+
+.landing { 
+  width: 80%;
+  height: 100vh;                
+  margin: 0 auto;      
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: white;
+  margin: 20px auto;                    
+}    
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {       
+  min-height: 20vh;      
+  display: flex;
+  flex-direction: column;      
+  background-color: darkseagreen;                
+}
+
+.button {      
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.5em;      
+  padding-left: 10px;
+  padding-right: 10px;            
+}
+
+.button:hover {
+  background-color: rgb(66, 85, 66);
+}
+
+.nav {
+  display: flex;      
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;      
+}
+
+.main {       
+  min-height: 70vh;                     
+  background-color: steelblue;                            
+}
+
+.section div {
+  display: flex;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(51, 51, 182);
+  margin: 10px;
+  font-size: 3em;
+  color: white; 
+  justify-content: center;
+  align-items: center;          
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: space-around;
+}
+
+.footer {      
+  min-height: 10vh;      
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;                
+}
